@@ -1,0 +1,20 @@
+auto lo
+iface lo inet loopback
+
+auto "первый интерфейс"
+iface "первый интерфейс" inet manual
+
+auto "второй интерфейс"
+iface "второй интерфейс" inet manual
+
+auto bond0
+iface bond0 inet static
+address "ip-адрес"
+netmask "маска сети"
+gateway "шлюз по умолчанию"
+bond-mode 1
+bond-miimon 100
+bond-downdelay 200
+bond-updelay 200
+bond-xmit-hash-policy 1
+slaves "первый интерфейс" "второй интерфейс"

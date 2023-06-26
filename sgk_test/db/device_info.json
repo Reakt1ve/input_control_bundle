@@ -1,0 +1,3307 @@
+{
+    "devices_info": [
+        {
+            "contur": "cu",
+            "contur_data": {
+                "blackhole": [
+                    {"ip":"1.2.3.4"},
+                    {"ip":"1.2.3.4"},
+                    {"ip":"1.2.3.4"}
+                ],
+                "device_types": [
+                    {
+                        "device_type": "server T1",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc2"}
+                                    ] 
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc3"}
+                                    ]
+                                }
+                            ],
+                            "spare_group": []
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "server T2",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc2"}
+                                    ] 
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error": ""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc3"}
+                                    ]
+                                }
+                            ],
+                            "spare_group": []
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "SHD T1",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md2",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to":"",
+                                        "options":[],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdc1"},
+                                        {"name":"sdd1"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdo1"},
+                                        {"name":"sdp1"}
+                                    ]
+                                },
+                                {
+                                    "mdadm_name": "md3",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to":"",
+                                        "options":[],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sde1"},
+                                        {"name":"sdf1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md4",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to":"",
+                                        "options":[],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdg1"},
+                                        {"name":"sdh1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md5",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to":"",
+                                        "options":[],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdi1"},
+                                        {"name":"sdj1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md6",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to":"",
+                                        "options":[],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdk1"},
+                                        {"name":"sdl1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md7",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to":"",
+                                        "options":[],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdm1"},
+                                        {"name":"sdn1"}
+                                    ],
+                                    "spare_disks": []
+                                }
+                            ],
+                            "spare_group": [
+                                {
+                                    "name_group": "SpR",
+                                    "group_members": [
+                                        {"name":"md2"},
+                                        {"name":"md3"},
+                                        {"name":"md4"},
+                                        {"name":"md5"},
+                                        {"name":"md6"},
+                                        {"name":"md7"}
+                                    ]
+                                }
+                            ]
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "ARM T1",
+                        "raid_module": {},
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "contur": "cu",
+            "contur_data": {
+                "blackhole": [
+                    {"ip":"1.2.3.4"},
+                    {"ip":"1.2.3.4"}
+                ],
+                "device_types": [
+                    {
+                        "device_type": "server T1",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc2"}
+                                    ] 
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options":[
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc3"}
+                                    ]
+                                }
+                            ],
+                            "spare_group": []
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "server T2",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc2"}
+                                    ] 
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc3"}
+                                    ]
+                                }
+                            ],
+                            "spare_group": []
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "SHD T1",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md2",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdc1"},
+                                        {"name":"sdd1"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdo1"},
+                                        {"name":"sdp1"}
+                                    ]
+                                },
+                                {
+                                    "mdadm_name": "md3",
+                                    "fs_type":"ext4",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sde1"},
+                                        {"name":"sdf1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md4",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdg1"},
+                                        {"name":"sdh1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md5",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdi1"},
+                                        {"name":"sdj1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md6",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdk1"},
+                                        {"name":"sdl1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md7",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdm1"},
+                                        {"name":"sdn1"}
+                                    ],
+                                    "spare_disks": []
+                                }
+                            ],
+                            "spare_group": [
+                                {
+                                    "name_group": "SpR",
+                                    "group_members": [
+                                        {"name":"md2"},
+                                        {"name":"md3"},
+                                        {"name":"md4"},
+                                        {"name":"md5"},
+                                        {"name":"md6"},
+                                        {"name":"md7"}
+                                    ]
+                                }
+                            ]
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "ARM T1",
+                        "raid_module": {},
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "contur": "cu",
+            "contur_data": {
+                "blackhole": [],
+                "device_types": [
+                    {
+                        "device_type": "server T1",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc2"}
+                                    ] 
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc3"}
+                                    ]
+                                }
+                            ],
+                            "spare_group": []
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "server T2",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc2"}
+                                    ] 
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc3"}
+                                    ]
+                                }
+                            ],
+                            "spare_group": []
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "SHD T1",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md2",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdc1"},
+                                        {"name":"sdd1"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdo1"},
+                                        {"name":"sdp1"}
+                                    ]
+                                },
+                                {
+                                    "mdadm_name": "md3",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sde1"},
+                                        {"name":"sdf1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md4",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdg1"},
+                                        {"name":"sdh1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md5",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdi1"},
+                                        {"name":"sdj1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md6",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdk1"},
+                                        {"name":"sdl1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md7",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdm1"},
+                                        {"name":"sdn1"}
+                                    ],
+                                    "spare_disks": []
+                                }
+                            ],
+                            "spare_group": [
+                                {
+                                    "name_group": "SpR",
+                                    "group_members": [
+                                        {"name":"md2"},
+                                        {"name":"md3"},
+                                        {"name":"md4"},
+                                        {"name":"md5"},
+                                        {"name":"md6"},
+                                        {"name":"md7"}
+                                    ]
+                                }
+                            ]
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "ARM T1",
+                        "raid_module": {},
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "contur": "cu",
+            "contur_data": {
+                "blackhole": [],
+                "device_types": [
+                    {
+                        "device_type": "server T1",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc2"}
+                                    ] 
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc3"}
+                                    ]
+                                }
+                            ],
+                            "spare_group": []
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "server T2",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc2"}
+                                    ] 
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc3"}
+                                    ]
+                                }
+                            ],
+                            "spare_group": []
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "SHD T1",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md2",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdc1"},
+                                        {"name":"sdd1"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdo1"},
+                                        {"name":"sdp1"}
+                                    ]
+                                },
+                                {
+                                    "mdadm_name": "md3",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sde1"},
+                                        {"name":"sdf1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md4",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdg1"},
+                                        {"name":"sdh1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md5",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdi1"},
+                                        {"name":"sdj1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md6",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdk1"},
+                                        {"name":"sdl1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md7",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdm1"},
+                                        {"name":"sdn1"}
+                                    ],
+                                    "spare_disks": []
+                                }
+                            ],
+                            "spare_group": [
+                                {
+                                    "name_group": "SpR",
+                                    "group_members": [
+                                        {"name":"md2"},
+                                        {"name":"md3"},
+                                        {"name":"md4"},
+                                        {"name":"md5"},
+                                        {"name":"md6"},
+                                        {"name":"md7"}
+                                    ]
+                                }
+                            ]
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "ARM T1",
+                        "raid_module": {},
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "contur": "cu",
+            "contur_data": {
+                "blackhole": [],
+                "device_types": [
+                    {
+                        "device_type": "server T1",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "unit_size": "98G",
+                                    "level": 1,
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc2"}
+                                    ] 
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc3"}
+                                    ]
+                                }
+                            ],
+                            "spare_group": []
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "server T2",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "unit_size": "98G",
+                                    "level": 1,
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc2"}
+                                    ] 
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc3"}
+                                    ]
+                                }
+                            ],
+                            "spare_group": []
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "SHD T1",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md2",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdc1"},
+                                        {"name":"sdd1"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdo1"},
+                                        {"name":"sdp1"}
+                                    ]
+                                },
+                                {
+                                    "mdadm_name": "md3",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sde1"},
+                                        {"name":"sdf1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md4",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdg1"},
+                                        {"name":"sdh1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md5",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdi1"},
+                                        {"name":"sdj1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md6",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdk1"},
+                                        {"name":"sdl1"}
+                                    ],
+                                    "spare_disks": []
+                                },
+                                {
+                                    "mdadm_name": "md7",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "",
+                                        "options": [],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "1.8T",
+                                    "active_disks": [
+                                        {"name":"sdm1"},
+                                        {"name":"sdn1"}
+                                    ],
+                                    "spare_disks": []
+                                }
+                            ],
+                            "spare_group": [
+                                {
+                                    "name_group": "SpR",
+                                    "group_members": [
+                                        {"name":"md2"},
+                                        {"name":"md3"},
+                                        {"name":"md4"},
+                                        {"name":"md5"},
+                                        {"name":"md6"},
+                                        {"name":"md7"}
+                                    ]
+                                }
+                            ]
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    },
+                    {
+                        "device_type": "ARM T1",
+                        "raid_module": {},
+                        "devices_list": [
+                            {
+                                "hostname": "",
+                                "IB_owner": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "contur": "cu",
+            "contur_data": {
+                "blackhole": [],
+                "device_types": [
+                    {
+                        "device_type": "server T2",
+                        "raid_module": {
+                            "mdadm_list": [
+                                {
+                                    "mdadm_name": "md0",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/",
+                                        "options":[],
+                                        "error": "remount-ro"
+                                    },
+                                    "level": 1,
+                                    "unit_size": "98G",
+                                    "active_disks": [
+                                        {"name":"sda2"},
+                                        {"name":"sdb2"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc2"}
+                                    ] 
+                                },
+                                {
+                                    "mdadm_name": "md1",
+                                    "mount": {
+                                        "fs_type":"ext4",
+                                        "to": "/var",
+                                        "options": [
+                                            {"name":"defaults"}
+                                        ],
+                                        "error":""
+                                    },
+                                    "level": 1,
+                                    "unit_size": "794,3G",
+                                    "active_disks": [
+                                        {"name":"sda3"},
+                                        {"name":"sdb3"}
+                                    ],
+                                    "spare_disks": [
+                                        {"name":"sdc3"}
+                                    ]
+                                }
+                            ],
+                            "spare_group": []
+                        },
+                        "devices_list": [
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "bond0",
+                                            "interface_data": {
+                                                "type": "bonding",
+                                                "slaves":[
+                                                    {"name":"eth0"},
+                                                    {"name":"eth1"}
+                                                ],
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth0",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "bond0",
+                                            "interface_data": {
+                                                "type": "bonding",
+                                                "slaves":[
+                                                    {"name":"eth0"},
+                                                    {"name":"eth1"}
+                                                ],
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "bond0",
+                                            "interface_data": {
+                                                "type": "bonding",
+                                                "slaves":[
+                                                    {"name":"eth0"},
+                                                    {"name":"eth1"}
+                                                ],
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth0",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "bond0",
+                                            "interface_data": {
+                                                "type": "bonding",
+                                                "slaves":[
+                                                    {"name":"eth0"},
+                                                    {"name":"eth1"}
+                                                ],
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth0",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "bond0",
+                                            "interface_data": {
+                                                "type": "bonding",
+                                                "slaves":[
+                                                    {"name":"eth0"},
+                                                    {"name":"eth1"}
+                                                ],
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "bond0",
+                                            "interface_data": {
+                                                "type": "bonding",
+                                                "slaves": [
+                                                    {"name":"eth0"},
+                                                    {"name":"eth1"}
+                                                ],
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "bond0",
+                                            "interface_data": {
+                                                "type": "bonding",
+                                                "slaves": [
+                                                    {"name":"eth0"},
+                                                    {"name":"eth1"}
+                                                ],
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "bond0",
+                                            "interface_data": {
+                                                "type": "bonding",
+                                                "slaves": [
+                                                    {"name":"eth0"},
+                                                    {"name":"eth1"}
+                                                ],
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            },
+                            {
+                                "hostname": "host.ru",
+                                "IB_owner": false,
+                                "network_module": {
+                                    "interfaces": [
+                                        {
+                                            "name": "eth1",
+                                            "interface_data": {
+                                                "type": "ethernet",
+                                                "ip": "1.2.3.4",
+                                                "network": "1.2.3.4",
+                                                "netmask": "1.2.3.4",
+                                                "gateway": "1.2.3.4"
+                                            }
+                                        }
+                                    ],
+                                    "dns_servers": [
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"},
+                                        {"ip":"1.2.3.4"}
+                                    ]
+                                },
+                                "ntp_servers": [
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"},
+                                    {"ip":"1.2.3.4"}
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+[Unit]
+Description=Blackhole service
+After=network.target
+[Service]
+ExecStart="путь до скрипта"/blackhole
+[Install]
+WantedBy=multi-user.target

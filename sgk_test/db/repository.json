@@ -1,0 +1,254 @@
+{
+    "repositories": [
+        {
+            "contur": "cu",
+            "contur_data": {
+                "remote_repo": "1.2.3.4",
+                "main": [
+                    {
+                        "name": "repomain",
+                        "path": "/repo/leningrad/main",
+                        "os": "leningrad",
+                        "pools": [
+                            "main",
+                            "non-free",
+                            "contrib"
+                        ]
+                    },
+                    {
+                        "name": "repodev",
+                        "path": "/repo/leningrad/devel",
+                        "os": "leningrad",
+                        "pools": [
+                            "main",
+                            "non-free",
+                            "contrib"
+                        ]
+                    },
+                    {
+                        "name": "repoupdatemain",
+                        "path": "/repo/leningrad/update-actual",
+                        "os": "leningrad",
+                        "pools": [
+                            "main",
+                            "non-free",
+                            "contrib"
+                        ]
+                    },
+                    {
+                        "name": "repoupdatedev",
+                        "path": "/repo/leningrad/update-actual-dev",
+                        "os": "leningrad",
+                        "pools": [
+                            "main",
+                            "non-free",
+                            "contrib"
+                        ]
+                    }
+                ],
+                "SPOrepos": [],
+                "SVTs": [
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"},
+                    {"hostname":"host.ru"}
+                ]
+            }
+        },
+        {
+            "contur": "cu", 
+            "contur_data": {
+                "remote_repo": "1.2.3.4",
+                "main": [
+                    {
+                        "name": "repomain",
+                        "path": "/repo/leningrad/main",
+                        "os": "leningrad",
+                        "pools": [
+                            "main",
+                            "non-free",
+                            "contrib"
+                        ]
+                    },
+                    {
+                        "name": "repodev",
+                        "path": "/repo/leningrad/devel",
+                        "os": "leningrad",
+                        "pools": [
+                            "main",
+                            "non-free",
+                            "contrib"
+                        ]
+                    },
+                    {
+                        "name": "repoupdatemain",
+                        "path": "/repo/leningrad/update-actual",
+                        "os": "leningrad",
+                        "pools": [
+                            "main",
+                            "non-free",
+                            "contrib"
+                        ]
+                    },
+                    {
+                        "name": "repoupdatedev",
+                        "path": "/repo/leningrad/update-actual-dev",
+                        "os": "leningrad",
+                        "pools": [
+                            "main",
+                            "non-free",
+                            "contrib"
+                        ]
+                    }
+                ],
+                "SPOrepos": [],
+                "SVTs": [
+			{"hostname":"host.ru"}
+		]
+            }
+        },
+        {
+            "contur": "cu",
+            "contur_data": {
+                "remote_repo": "",
+                "main": [
+                    {
+                        "name": "repomain",
+                        "path": "/repo/leningrad/main",
+                        "os": "leningrad",
+                        "pools": [
+                            "main",
+                            "non-free",
+                            "contrib"
+                        ]
+                    },
+                    {
+                        "name": "repodev",
+                        "path": "/repo/leningrad/dev",
+                        "os": "leningrad",
+                        "pools": [
+                            "main",
+                            "non-free",
+                            "contrib"
+                        ]
+                    },
+                    {
+                        "name": "repoupdatemain",
+                        "path": "/repo/leningrad/update-actual",
+                        "os": "leningrad",
+                        "pools": [
+                            "main",
+                            "non-free",
+                            "contrib"
+                        ]
+                    },
+                    {
+                        "name": "repoupdatedev",
+                        "path": "/repo/leningrad/update-actual-dev",
+                        "os": "leningrad",
+                        "pools": [
+                            "main",
+                            "non-free",
+                            "contrib"
+                        ]
+                    }
+                ],
+                "SPOrepos": [],
+                "SVTs": []
+            }
+        },
+        {
+            "contur": "cu",
+            "contur_data": {
+                "remote_repo": "",
+                "repomain": {
+                    "path": "/repo/leningrad/main",
+                    "os": "leningrad",
+                    "pools": [
+                        "main",
+                        "non-free",
+                        "contrib"
+                    ]
+                },
+                "repodev": {
+                    "path": "/repo/leningrad/dev",
+                    "os": "leningrad",
+                    "pools": [
+                        "main",
+                        "non-free",
+                        "contrib"
+                    ]
+                },
+                "repoupdatemain": {
+                    "path": "/repo/leningrad/update-actual",
+                    "os": "leningrad",
+                    "pools": [
+                        "main",
+                        "non-free",
+                        "contrib"
+                    ]
+                },
+                "repoupdatedev": {
+                    "path": "/repo/leningrad/update-actual-dev",
+                    "os": "leningrad",
+                    "pools": [
+                        "main",
+                        "non-free",
+                        "contrib"
+                    ]
+                },
+                "SPOrepos": [],
+                "SVTs": []
+            }
+        }
+    ]
+}
